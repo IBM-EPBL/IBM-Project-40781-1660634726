@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.bac{
+    overflow: hidden;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(./nut\ bc.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+   text-shadow: 100%;
+    justify-content: center;
+     margin-top: 10%;
+     font-size: 100px;
+     font-weight: 100%;
+     text-decoration: solid;
+     transform: translateY(-100vh);
+    animation: fall 3.5s forwards;
+   
+ 
+}
+@keyframes fall{
+    100%{
+        transform : translateX(0);
+    }
+}
+.logo{
+    margin-top: 2%;
+}
+.btn{
+    margin-left: 45%;
+   margin-top: 500%;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(63, 57, 57);
+    width: 180px;
+    padding: 20px;
+    text-decoration:brown;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ll{
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 44%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+.btn:hover{
+    color:aqua;
+}
+ 
+ 
+ 
+ 
+
