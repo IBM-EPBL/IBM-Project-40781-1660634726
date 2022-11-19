@@ -1,0 +1,173 @@
+body{
+    display: flex;
+    background-image:url(https://www.menusano.com/wp-content/uploads/2021/08/vegan-heart.jpg);
+    height:100vh;
+   
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+ 
+}
+.banner-text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ 
+}
+.nav-link{
+    font-family: poppins;
+    color: rgb(252, 247, 247) !important;
+    font-size: 20px;
+   
+}
+.nav-link:hover{
+    border-bottom: 2px solid;
+    color: rgb(3, 240, 240);
+    transition: 0.9s;
+ 
+}
+.banner-text p{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(249, 253, 253);
+}
+.banner-btn a{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-transform: upppercase;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+}
+.banner-btn a.active{
+    margin-top: 40%;
+    background: transparent;
+    border-color: rgb(243, 237, 237);
+    color: rgb(251, 248, 248);
+}
+.banner-btn a.active:hover{
+    background-color: rgb(194, 220, 211);
+    color: black;
+ 
+}
+.navbar-dark .navbar-brand{
+    color:#fff;
+    font-size: 30px;
+    font-family: kaushan script;
+}
+.text-area{
+    color: white;
+    font-size: 50px;
+    font-family: kaushan script;
+    font-weight: bold;
+    margin-top: 20%;
+ 
+   
+}
+.text-area span{
+     color: white;
+     opacity: 0%;
+     transform: translate(0, -100px) rotate(360deg) scale(0);
+     animation: animate 5s forwards;
+}
+.text-area span{
+    display: inline-block;
+}
+.text-area span:nth-of-type(2){
+    animation-delay:1.s;
+}
+.text-area span:nth-of-type(3){
+    animation-delay:2.s;
+}
+.text-area span:nth-of-type(4){
+    animation-delay:3.s;
+}
+.text-area span:nth-of-type(5){
+    animation-delay:4.s;
+}
+.text-area span:nth-of-type(6){
+    animation-delay:5.s;
+}
+.text-area span:nth-of-type(7){
+    animation-delay:6.s;
+}
+.text-area span:nth-of-type(8){
+    animation-delay:7.s;
+}
+.text-area span:nth-of-type(9){
+    animation-delay:8.s;
+}
+.text-area span:nth-of-type(10){
+    animation-delay:9.s;
+}
+.text-area span:nth-of-type(11){
+    animation-delay:10.s;
+}
+.text-area span:nth-of-type(12){
+    animation-delay:11.s;
+}
+.text-area span:nth-of-type(13){
+    animation-delay:12.s;
+}
+.text-area span:nth-of-type(14){
+    animation-delay:13.s;
+}
+.text-area span:nth-of-type(15){
+    animation-delay:14.s;
+}
+.text-area span:nth-of-type(16){
+    animation-delay:15.s;
+}
+@keyframes animate{
+    30%{
+        transform: translate(0, -50px) rotate(180deg) scale(1);
+    }
+    60%{
+        transform: translate(0, 20px) rotate(0deg) scale(0.8) ;
+    }
+    100%{
+        transform: translate(0) rotate(0deg) scale(1);
+        opacity: 1;
+    }
+}
+img{
+    width:10%;
+    margin-left: -6%;
+    border: 1px solid white;
+    margin-right: 4%;
+}
+ 
+@media screen and (max-width:520px){
+   body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://imgs.search.brave.com/-xKa_Jc485mJaD8byjy5Vmkc5WGpfA4s_3G_JbSIV-k/rs:fit:606:900:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vNzM2/eC8zOC85MC9lYy8z/ODkwZWM3ZDAwNzkx/MzkzMWJlYzE4OGIz/ODQ5YThhZC5qcGc);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+   }
+   
+ 
+    img{
+        border: 2px solid #fff;
+        margin-left: -1%;
+        width: 20%;
+       
+    }
+    h1{
+        font-size: 20px;
+    }
+    .navbar-dark{
+        background: #333;
+    }
+    .text-area{
+        font-size: 25px;
+        display: inline;
+        margin-left: -55%;
+        margin-right: -70%;
+    }
+   
+}
+ 
+
